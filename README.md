@@ -338,10 +338,10 @@ db.Users.find({ "age": { $gte: 25, $lte: 30 } });
 
 
 
-// Menor a mayor
+
 db.Users.find().sort({ "age": 1 });
 
-// Mayor a menor
+
 db.Users.find().sort({ "age": -1 });
 
 
